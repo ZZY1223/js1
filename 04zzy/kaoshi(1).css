@@ -1,0 +1,16 @@
+.phptpl-header {
+  min-width: 1000px;
+}
+.phptpl-header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    transition: all 0.5s ease-in;
+}
+.phptpl-header, .second-js-top {
+  position: relative;
+}
