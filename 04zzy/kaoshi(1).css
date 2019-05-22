@@ -1,16 +1,26 @@
 .phptpl-header {
   min-width: 1000px;
 }
-.phptpl-header {
-    width: 100%;
-    height: auto;
-    position: relative;
-    background: #ffffff;
-    border-bottom: 1px solid #ededed;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
-    z-index: 200;
-    transition: all 0.5s ease-in;
+
+.img {
+  display: inline-block;
+  width: 75px;
+  height: 25px;
+  margin-top: 22.5px;
+  background-size: 26px 25px;
 }
-.phptpl-header, .second-js-top {
-  position: relative;
+
+.phptpl-header .header-container .nav-link-container .nav-link {
+  float: left;
+  width: 78px;
+  color: #999;
+  font-size: 10px;
+  font-family: 'PingFang SC';
+  font-weight: 300;
+  line-height: 13px;
+}
+
+.phptpl-header .header-container .nav-list {
+  float: right;
+  zoom: 1;
 }
